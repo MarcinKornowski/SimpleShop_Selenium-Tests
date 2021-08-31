@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-24T22:21:57 CEST" name="Surefire suite" finished-at="2021-08-24T22:22:22 CEST" duration-ms="25679">
+    <groups>
+    </groups>
+    <test started-at="2021-08-24T22:21:57 CEST" name="Surefire test" finished-at="2021-08-24T22:22:22 CEST" duration-ms="25679">
+      <class name="tests.PositiveLoginTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.PositiveLoginTests@3590fc5b]" started-at="2021-08-24T22:22:12 CEST" name="beforeTest" finished-at="2021-08-24T22:22:18 CEST" duration-ms="6182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserLoginWithCorrectPasswordAndLogin()[pri:0, instance:tests.PositiveLoginTests@3590fc5b]" started-at="2021-08-24T22:22:18 CEST" name="asUserLoginWithCorrectPasswordAndLogin" finished-at="2021-08-24T22:22:21 CEST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserLoginWithCorrectPasswordAndLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.PositiveLoginTests@3590fc5b]" started-at="2021-08-24T22:22:21 CEST" name="afterTest" finished-at="2021-08-24T22:22:22 CEST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.PositiveLoginTests -->
+      <class name="tests.FailedLoginTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.FailedLoginTests@67c27493]" started-at="2021-08-24T22:21:57 CEST" name="beforeTest" finished-at="2021-08-24T22:22:06 CEST" duration-ms="9522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserTryLoginWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@67c27493]" started-at="2021-08-24T22:22:06 CEST" name="asUserTryLoginWithIncorrectLoginAndPassword" finished-at="2021-08-24T22:22:09 CEST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryLoginWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@67c27493]" started-at="2021-08-24T22:22:09 CEST" name="afterTest" finished-at="2021-08-24T22:22:12 CEST" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.FailedLoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
